@@ -1,0 +1,27 @@
+
+/*position relative is with respect to the elements inside the container*/
+
+/*can scroll down the page*/
+body{
+	height: 3000px;
+}
+
+/*position fixed on scroll you continue to see it on the page*/
+/*like a menu or cart */
+
+#container{
+	position: fixed;
+	margin: 30px;
+	width: 300px;
+	height: 300px;
+	background-color: #777;
+
+}
+
+#inner{
+	position: absolute;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: #999; 
+}

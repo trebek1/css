@@ -1,0 +1,31 @@
+.text{
+	background: #000;
+	color: #fff;
+	width: 190px;
+	height: 90px;
+	padding: 20px 10px; 
+}
+
+h1{
+	margin: 0 10px 50px 10px;
+	border-bottom: 1px solid black;
+}
+
+#container{
+	width: 200px;
+	background: #aaa;
+	max-height: 200px;
+	overflow: auto;
+}
+
+/*overflow: hidden to not show overflowing text or image*/
+
+/*overflow auto will only add scroll if overflows 
+overflow scroll will always show a scroll bar*/
+/*overflow: visible; is default */
+
+/*padding is between inner content and outer edge */
+/*padding increases height and width*/
+/*margin is outside of the box model */
+/*margin is outside of everything like border*/
+

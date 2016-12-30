@@ -1,0 +1,83 @@
+.red{
+	color: red;
+}
+
+#main{
+	font-size: 40px;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+/*all p, a and red class*/
+p,a, .red {
+	padding: 0; 
+	margin: 0;
+}
+/*any h1 inside of article */
+.article h1{
+	color: cyan;
+}
+
+/*elements of type h1 with parents with class article */
+.article > h1{
+	color: green;
+}
+
+p.article {
+	color: green;
+}
+
+a[href="http://www.google.com"]{
+	color: orange;
+}
+
+input[type="text"]{
+	background-color: yellow;
+}
+
+img[alt~="alex"]{
+	border: 1px solid #000; 
+}
+
+.alex.nick{
+	color: salmon;	
+}
+
+#nick .vic{
+	color: cyan;
+}
+
+/*pseudo classes for when a link is clicked */ 
+a:visited{
+	color: orange;
+}
+
+a:hover{
+	color: cyan;
+}
+
+p:hover{
+	font-size: 120%;
+}
+
+input[type="text"]:focus{
+	background-color: grey;
+}
+
+.test:nth-child(2){
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+

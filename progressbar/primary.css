@@ -1,0 +1,22 @@
+.container{
+	width: 400px;
+}
+
+.bar{
+	width: 100%;
+	background: #eee;
+	padding: 3px;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 3px rgba(0,0,0,0.2);
+	/*x y blur  */
+}
+
+.bar-fill{
+	height: 20px;
+	display: block;
+	background: cornflowerblue;
+	width: 50%;
+	border-radius: 3px;
+	-webkit-transition:width 0.89s ease;
+
+}

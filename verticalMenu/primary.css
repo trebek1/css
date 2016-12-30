@@ -1,0 +1,27 @@
+.menu{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	width: 150px;
+	border: 1px solid #aaa;
+}
+
+.menu li a{
+	display: block;
+	padding: 5px;
+	border: 2px solid #ddd;
+	border-bottom: 1px solid #aaa;
+	text-decoration: none;
+	font: 1em Georgia;
+	color: #555;
+	
+	/*ie workaround*/
+	zoom: 1;
+		
+}
+
+.menu li a:hover{
+	background: orange;
+}
+
+

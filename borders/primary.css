@@ -1,0 +1,15 @@
+#container{
+	background: #eee;
+	height: 300px;
+	width: 300px;
+	border: 10px inset red;
+	/*dotted dashed solid inset */
+	border-top-color: green;
+
+	border-left-color: blue;
+	border-left-style: solid;
+	border-left-width: 2px;
+
+	box-sizing: border-box;	
+
+}

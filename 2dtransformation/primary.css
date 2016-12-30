@@ -1,0 +1,20 @@
+h1{
+	width: 220px;
+	background: black;
+	color: white;
+	padding: 10px;
+	
+	/*-webkit-transform: rotate(10deg); /*center transform*/
+	/*-webkit-transform-origin: right bottom;*/
+	/*can use 50%*/	
+	/*-webkit-transform: translate(200px, 100px);*/
+	/*does not affect elements around it */
+	/*-webkit-transform: skew(10deg);*/
+	/*rotate image must be on degrees*/
+
+	-webkit-transform: scale(0.5) skew(10deg) translate(200px, 100px);
+	
+	/*can put several transformations in one call no comas*/
+
+}
+

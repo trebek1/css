@@ -1,0 +1,19 @@
+/*// cant center something 100% width of page */
+/*display block is 100% width*/
+
+#container{
+	width: 600px;
+	background: green;
+	margin: 0 auto;
+	/*north east south west */
+	/*short hand 0 auto puts top and left right */
+}
+
+#inner{
+	background: orange;
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+
+}
+

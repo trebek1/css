@@ -1,0 +1,15 @@
+.first::after{
+	content: url(../tick.png);
+	display: block;
+	color: red;
+	padding: 10px;
+	background: white;
+	width: 50px;
+	height: 50px;
+
+}
+
+.first{
+	background: black;
+	color: white;
+}

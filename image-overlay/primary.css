@@ -1,0 +1,30 @@
+.image-box{
+	width: 200px;
+	height: 200px;
+	border: 10px solid #ccc;
+	border-radius: 10px;
+	position: relative;
+
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.image-box span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	 /*in relation to parent element */
+	/*if parent is relative*/
+
+	background: #777;
+	/*opacity: 0.75; sets opacity to text too, use rgba*/
+	background: rgba(0,0,0,0,0.25);
+	color: white;
+	padding: 5px;
+	font: 1em Georgia, serif;
+	font-style: italic;
+
+}

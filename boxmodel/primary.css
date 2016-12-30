@@ -1,0 +1,28 @@
+#box{
+	background: #ccc;
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/*box-sizing default content-box*/
+
+#container{
+	background: #aaa;
+}
+
+#container span {
+	color: #ede;
+	opacity: 0.5;
+}
+
+/*using rgba you dont need all of this splitup */
+
+/*rgba has a 4th param for alpha for opacity */
+/*alpha between 0 and 1 */
+/*rgb 0 -> 255 for 3 sections */
+/*shorten 6 digit rep if 3 are the same */
+
+/*slategrey or other natural color names  */

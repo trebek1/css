@@ -1,0 +1,31 @@
+#container{
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+	padding: 10px;
+	background: #ccc;
+	box-shadow: 5px 5px 6px 8px green;
+
+	/*x offset,y offset, blur, spread (area shadow covers), color */
+
+}
+
+body{
+	background: #ccc;
+}
+
+p{
+	margin: 0;
+	font-size: 1.6em;
+}
+
+p.shadow{
+	/*text-shadow: 10px 20px 5px slategrey;*/
+	/*text-shadow: -5px -5px red, 10px 10px green;*/
+	/*text-shadow: -2px -2px red;*/
+	
+	/*engraved effect*/
+	color: #c8c8c8;
+	text-shadow: 1px 1px white, -1px -1px #555;
+
+}

@@ -1,0 +1,69 @@
+/*.sidebar{
+	background-color: slategrey;
+	width: 200px;
+	float: left;
+}
+
+.content{
+	background-color: darkslategrey;
+	width: 600px;
+	float: left;
+
+}
+
+.first{
+	background: #ccc;
+	float: left;
+	width: 50%;
+}
+
+.second{
+	background: #ddd;
+	float: right;
+	width: 50%;
+}
+*/
+
+.container{
+	background: #ddd;
+}
+
+.box{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+	display: block;
+}
+
+.clearfix::before, .clearfix::after{
+	content: " ";
+	display:block;
+}
+.clearfix::after{
+	clear: both;
+	
+}
+
+/*clearfix is if you dont float the container left
+with the elements in the container */
+
+/*the container will collapse without a clearfix*/
+
+
+
+
+
+
+

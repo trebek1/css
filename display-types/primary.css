@@ -1,0 +1,24 @@
+/*inline block, none and inline-block*/
+
+/*inline is for adding into a sentence like an anchor tag */
+
+p{
+	display: inline;
+}
+
+/*inline elements don't respect height and width*/
+
+.button{
+	background: cyan;
+	padding: 5px;
+	width: 200px;
+	display: inline-block;
+	
+}
+
+/*display none to hide elements before javascript manipulates them*/
+/*visibilty keeps element there but not shown, display none actually removes the element */
+
+/*inline block keeps widths and heights like block but lets items stay inline */
+
+

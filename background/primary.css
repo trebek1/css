@@ -1,0 +1,40 @@
+.message{
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2px 2px 2px 25px;
+	background-color: slategrey;
+	background-image: url(../tick.png);
+	background-repeat: no-repeat;
+	/*repeat-x repeat-y no-repeat*/
+	background-position: 5px center;
+	/*5px from left, centered vertically */
+	/*left right, top right, bottom center */
+
+	 /*one line all the properties above */
+	/*background: slategrey url(../tick.png) no-repeat 5px center; */
+}
+
+.container{
+	width: 300px;
+	height: 261px;
+
+	
+	/*background-image: url('../tick.png'), url(../bubble.png); 
+	background-repeat: no-repeat, no-repeat;
+	background-position: 50% 50%, 0*/
+	
+	
+	/*background shorthand property */
+	background: url('../tick.png') no-repeat 50% 50%,url(../bubble.png) no-repeat 0 0;	
+}
+
+#container{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	background: url(../cog.png) no-repeat 50% 50%;
+	background-size: contain; 
+
+	/*contain and cover for background-size as well as height width*/
+}

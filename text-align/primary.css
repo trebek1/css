@@ -1,0 +1,25 @@
+.column{
+	width: 170px;
+	padding: 5px;
+	border-left: 1px solid #000;
+	border-right: 1px solid black;
+	text-align: justify;
+	/*justify left right center auto */
+	/*newspaper common look is justify */
+}
+
+/*left align is default for text-align*/
+
+p.indent {
+	width: 300px;
+	text-indent: 20px;
+	/*% em px*/
+}
+
+input[type="submit"]{
+	-webkit-appearance: none;
+	width: 300px;
+	height: 50px;
+	background:url('cog.png') no-repeat 1%;
+	text-indent: -1000px;
+}
