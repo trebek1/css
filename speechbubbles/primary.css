@@ -1,0 +1,48 @@
+body{
+	background-color: #f0f0ee;
+	font: 1em "Trebuchet MS";
+}
+
+.bubble-list .bubble img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border: 3px solid white;
+	border-radius: 80px;
+}
+
+.bubble-list .bubble .bubble-content{
+	float: left;
+	margin-left: 20px;
+	width: 400px;
+	padding: 0 20px;
+	border-radius: 10px;
+	background: #fff;
+	position: relative;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.bubble.clearfix{
+	margin-bottom: 20px;
+}
+
+.bubble-list .bubble .bubble-content .point{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 12px solid white;
+	left: -12px;
+	top: 12px;
+
+}
